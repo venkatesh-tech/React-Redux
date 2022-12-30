@@ -13,7 +13,7 @@ export const CakeView = () => {
       <input
         type="number"
         value={value}
-        onClick={(e) => setValue(parseInt(e.target.value))}
+        onChange={(e) => setValue(parseInt(e.target.value))}
       />
       <button onClick={() => dispatch(restocked(value))}>Restock cakes</button>
     </div>
