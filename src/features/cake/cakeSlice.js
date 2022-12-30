@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-const createSlice = require("@reduxjs/toolkit").createSlice;
+// const createSlice = require("@reduxjs/toolkit").createSlice;
 //Action
 const initialState = {
   numOfCakes: 10,
